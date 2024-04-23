@@ -6,7 +6,7 @@ def cancellation(input_list, stop_word):
     If one of the elements is equal to the stop_word, then stop the function,
     and return what you have so far.
     '''
-    output_list = [1]
+    output_list = []
     for x in input_list:
         if x == stop_word:
             break
@@ -19,7 +19,7 @@ def copy_all_but_skip_word(input_list, skip_word):
     If one of the elements is equal to the skip_word, then you should skip that element,
     but keep checking all of the other elements.
     '''
-    output_list = [1]
+    output_list = []
     for x in input_list:
         if x == skip_word:
             continue
