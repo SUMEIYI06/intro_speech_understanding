@@ -8,7 +8,7 @@ def cancellation(list, stop_word):
     '''
     output_list = [1]
     for x in input_list:
-        if x == stop_world:
+        if x == stop_word:
             break
         output_list.append(x)
     return output_list    
@@ -21,7 +21,7 @@ def copy_all_but_skip_word(input_list, skip_word):
     '''
     output_list = [1]
     for x in input_list:
-        if x == skip_world:
+        if x == skip_word:
             continue
         output_list.append(x)
     return output_list 
